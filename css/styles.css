@@ -1,0 +1,176 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    
+    
+}
+.navbar-brand{
+    font-size: 35px;
+}
+#title{
+    background-color: #ff4c68;
+    
+    
+}
+.meet{
+    padding-top:150px ;
+   
+}
+h1,h2{
+    font-family: 'Montserrat-black';
+    color: #fff;
+}
+
+h1{
+    
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h2{
+    
+    
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat-black';
+    color: black;
+    padding-top: 2%;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%; 
+}
+.nav-item{
+    font-size:20px;
+
+}
+.nav-link{
+   margin:0 20px 0 20px;
+}
+
+.download-btn{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.doggyimage{
+    
+    padding-top:10px ;
+    padding-left: 90px;
+   transform: rotate(25deg);
+   position: absolute;
+   right: 30%;
+    
+}
+#features{
+    
+    background-color: #fff;
+    position: relative;
+    
+}
+.feature-box{
+    color:#ef8172;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    font-family: 'montserrat-bold';
+    line-height: 1.5;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+.para{
+    color:#8f8f8f;
+    width: 40%;
+    margin:0 auto 0 auto;
+}
+#testimonials{
+    /*here first 7 % is top and bottom and 15% is left and right */
+    text-align: center;
+    background-color: #ef8172 ;
+    color: #fff;
+}
+.testimonials-image{
+    width: 15%;
+    border-radius: 100%;
+   position: relative;
+   left: 6%;
+  
+}
+em{
+    position: relative;
+    left: 8%;
+}
+
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding-bottom:3% ;
+   
+   
+}
+.press-logo{
+    width: 15%;
+    margin:20px 20px 20px 20px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#pricing{
+    padding: 100px;
+}
+.h1{
+    text-align: center;
+}
+.p{
+    text-align: center;
+}
+H3{
+    padding-left: 7%;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+.btton-DOWNLOAD{
+    margin-left:42%;
+    margin-top: 1%;
+}
+.btton-DOWNLOAD2{
+    margin-left:0%;
+    margin-top: 1%;
+}
+.cpyright{
+    margin-left: 45%;
+    margin-top: 1%;
+}
+@media (max-width :800px){     /* here min is atleast this much is required the this is applied and max is atmost this much after this is applied*/ 
+      h1{
+        text-align: center;
+        font-size: xx-large;
+        position: relative;
+       
+      }
+      .rotated{
+    
+        position: static;
+        left: 50%;
+        transform: rotate(0);
+
+      }
+}
+#cta{
+    font-family: 'montserrat-bold';
+    
+    background-color: #ff4c68;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#footer{
+   padding-left:47%;
+  
+}
+.logos{
+    margin:30px 5px 0 10px;
+}
